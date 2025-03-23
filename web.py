@@ -4,7 +4,7 @@ import random
 import matplotlib.pyplot as plt
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDViJOyA_463mAM4dXFkiWW71sRMcrVeUc")
+genai.configure(api_key="API_KEY")
 
 def generate_questions(difficulty):
     questions = []
